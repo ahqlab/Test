@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="urine.ahqlab.com.test">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".CameraCalibrationActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" />
+        <activity android:name=".ImageManipulationsActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ColorBlobDetectionActivity" />
+        <activity android:name=".FaceDetectionActivity" />
+        <activity android:name=".Puzzle15Activity" />
+        <activity android:name=".SamplesActivity" />
+        <activity android:name=".Tutorial1Activity" />
+        <activity android:name=".Tutorial2Activity" />
+        <activity android:name=".Tutorial3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".CameraView" />
+        <activity android:name=".CustomActivity" />
+        <activity android:name=".DetectResultActivity" />
+        <activity android:name="urine.ahqlab.com.camera.FocusActivity" />
+        <activity android:name="urine.ahqlab.com.camera.HelloOpenCvActivity" />
+        <activity android:name="urine.ahqlab.com.focus.AndroidCamera" />
+        <activity android:name="urine.ahqlab.com.focus.UrineDetector" />
+        <activity android:name="urine.ahqlab.com.result.GeneralResult" />
+        <activity android:name="urine.ahqlab.com.result.DetailResult" />
+        <activity android:name="urine.ahqlab.com.result.Prescription" />
+        <activity android:name="urine.ahqlab.com.pro.TestAsyncActivity"></activity>
+    </application>
+
+</manifest>

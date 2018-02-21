@@ -1,0 +1,2 @@
+include ':app', ':opencv-2.4.1'
+include ':openCVLibrary330'

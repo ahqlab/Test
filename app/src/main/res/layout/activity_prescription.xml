@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999999"
+    tools:context="urine.ahqlab.com.result.Prescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#ffffff">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:background="#ffffff"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:paddingTop="7dp"
+                android:gravity="center_horizontal"
+                android:text="진단결과"
+                android:background="#CCCCCC"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#ffffff"/>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#ffffff">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="15dp"
+                android:paddingBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text="신역치를 증가하는 고혈당증"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text=" - 진성 당뇨병"
+                android:background="#ffffff"/>
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text=" - 부신피질기능항진증"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingLeft="15dp"
+                android:paddingBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text="정상혈당"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text=" - 신 세뇨관 질병"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text=" - 원발성 신성 당뇨"
+                android:background="#ffffff"/>
+
+            <TextView
+                android:paddingLeft="15dp"
+                android:paddingTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text=" - 판고니 증후군"
+                android:background="#ffffff"/>
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

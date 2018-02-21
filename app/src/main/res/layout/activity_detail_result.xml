@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999999"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_margin="15dp"
+        android:background="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:stretchColumns="*">>
+
+        <TableRow android:padding="10dp">
+            <TextView android:text="pH" />
+            <TextView android:text="음성" />
+        </TableRow>
+        <!-- Row 1 -->
+
+        <TableRow android:padding="10dp">
+
+            <TextView android:text="Leukocyte" />
+            <TextView android:text="음성" />
+        </TableRow>
+
+        <TableRow android:padding="10dp">
+
+            <TextView android:text="Nitrite" />
+            <TextView android:text="음성" />
+        </TableRow>
+
+        <TableRow android:padding="10dp">
+
+            <TextView android:text="Protein" />
+            <TextView android:text="음성" />
+        </TableRow>
+
+        <TableRow android:padding="10dp">
+
+            <TextView android:text="Glucose" />
+            <TextView
+                android:textColor="#ff0000"
+                android:text="양성" />
+        </TableRow>
+
+        <TableRow android:padding="10dp">
+
+            <TextView android:text="Ketone" />
+            <TextView android:text="음성" />
+        </TableRow>
+
+        <TableRow android:padding="10dp">
+
+            <TextView android:text="Urobilinogen" />
+            <TextView android:text="음성" />
+        </TableRow>
+
+        <TableRow android:padding="10dp">
+
+            <TextView android:text="Bilirubin" />
+            <TextView android:text="음성" />
+        </TableRow>
+
+        <TableRow android:padding="10dp">
+
+            <TextView android:text="Erythrocyte" />
+            <TextView android:text="음성" />
+        </TableRow>
+
+        <TableRow android:padding="10dp">
+            <TextView android:text="Hemoglobin" />
+            <TextView android:text="음성" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="진단결과" />
+
+    </LinearLayout>
+
+</LinearLayout>
